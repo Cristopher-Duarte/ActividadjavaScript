@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+ 
+
+
+   
+
+    <script>
+
+
+   
+
+   var num = parseInt(prompt("(1 para el area de un circulo)(2 para el area de un rectangulo)(3 el area de un triangulo) "));
+
+   switch(num){ 
+       case 1:
+            var areacirculo=parseInt(prompt("Ingrese el radio del circulo"));
+            var radio=Math.pow(areacirculo,2);
+            var area=(Math.PI*radio);
+            document.write("<p> el area del circulo es "+area);
+        break;
+
+        case 2:
+            var base =parseInt(prompt("Ingrese la base del rectangulo"));
+            var altura=parseInt(prompt("Ingrese la altura del rectangulo"));
+            var arearec=base*altura;
+            document.write("<p> el area del rectangulo es "+arearec);
+        break;
+
+        case 3:
+            var basetri=parseInt(prompt("Ingrese la base del triangulo"));
+            var alturatri=parseInt(prompt("Ingrese la altura del triangulo"));
+            var areatri=(basetri*alturatri)/2;
+            document.write("<p> el area del triangulo es "+areatri);
+        break;
+   }
+
+   
+    
+   
+    
+    
+    
+    </script>
+</body>
+</html>

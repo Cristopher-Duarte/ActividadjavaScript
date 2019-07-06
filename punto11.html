@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+ 
+
+
+   
+
+    <script>
+
+
+    n=parseInt(prompt("Ingrese el tamaño del array"));
+    var numeros =  new Array(n);
+    var cont=0,cont2=0;
+
+    for( var x=1;x<numeros.length;x++){
+       numeros[x]=parseInt(prompt("Ingrese un numero"));
+       if(numeros[x]%2==0){ 
+        cont=cont+1;
+       } 
+       else{ 
+        if(numeros [x]%2 != 0){ 
+            cont2=cont+1;
+        } 
+       } 
+    }
+    document.writeln("<p> hay "+cont+" numeros pares </p>")
+    document.writeln("<p> hay "+cont2+" numeros inpares </p>")
+
+    
+   
+    
+    
+    
+    </script>
+</body>
+</html>

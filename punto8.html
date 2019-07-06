@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+ 
+
+
+   
+
+    <script>
+
+
+
+
+    var array = [];
+    array.push(nombre);
+    var nombre;
+    var cont=1,cont2=1;
+    var dinero,dinero2;
+     var empleados =parseInt(prompt("Digite el numero de empleados"))   
+    for(var x=1;x<10;x++){
+        nombre=parseInt(prompt("(1 femenino)  (2 masculino)"))
+        if(nombre==1){ 
+            dinero=parseInt(prompt("Igrese el sueldo"));
+            if(dinero>500){
+                cont=cont+1;
+             }
+        }
+        if(nombre==2){ 
+            dinero2=parseInt(prompt("Igrese el sueldo"));
+            if(dinero2<400){ 
+                cont2=cont2+1;
+            }
+        }
+   
+    }
+    document.writeln("<p> las mujeres que ganan por encima a los 500 son: "+cont);
+    document.writeln("<p> los hombres que ganan menos de los 400 son: "+cont2);
+    
+    
+    
+    </script>
+</body>
+</html>
